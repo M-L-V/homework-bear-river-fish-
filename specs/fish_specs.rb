@@ -11,9 +11,11 @@ class TestFish < Minitest::Test
 
       @fish = Fish.new("Sally")
 
-    end 
+    end
 
-
+    def test_fish_name
+      assert_equal("Sally", @fish.name)
+    end
 
 
   end
