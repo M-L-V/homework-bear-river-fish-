@@ -1,13 +1,13 @@
 class River
 
-attr reader :name :fish_number
+attr_reader :name, :number_of_fish
 
-def initialize (name)
+  def initialize (name, number_of_fish)
 
-  @name = name
-  @fish_number = 100 
+    @name = name
+    @number_of_fish = number_of_fish
 
-end
+  end
 
 
 

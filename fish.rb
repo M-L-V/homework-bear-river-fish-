@@ -1,6 +1,6 @@
 class Fish
 
-attr reader :fish_name
+attr_reader :fish_name
 
   def initialize
 
