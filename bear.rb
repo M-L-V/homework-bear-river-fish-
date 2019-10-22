@@ -10,6 +10,9 @@ attr_reader :name, :type
 
   end
 
+def bear_stomach_count
+  @stomach.count
+end
 
 
 

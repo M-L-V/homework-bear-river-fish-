@@ -20,7 +20,11 @@ end
 
   def test_bear_type
     assert_equal("grizzly", @bear.type)
-  end 
+  end
+
+  def test_bear_stomach_empty
+    assert_equal(0, @bear.bear_stomach_count)
+  end
 
 
 
